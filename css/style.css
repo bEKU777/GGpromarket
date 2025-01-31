@@ -1,0 +1,275 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: rgba(225, 238, 251, 0.3);
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    background-color: #E1EEFB;
+    padding: 30px 0 30px 0;
+    margin-bottom: 40px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.navigation {
+    margin-right: 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 20px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2B7BC6;
+}
+
+.main {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000;
+    margin: 0 0 20px 570px;
+    padding-top: 10px;
+}
+
+.main-info {
+    background: #3BB9B8;
+    margin-left: 140px;
+    padding: 50px 60px 50px 430px;
+}
+
+.main-info p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 0;
+}
+
+.main img {
+    position: absolute;
+    top: 0;
+}
+
+.advantage-block {
+    background-color: white;
+    margin-bottom: 80px;
+}
+
+.advantage-block .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 15px 0;
+}
+
+.advantage-block .advantage-item {
+    display: flex;
+    align-items: center;
+}
+
+.advantage-block img {
+    height: auto;
+}
+
+.advantage-block p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    padding-left: 30px;
+}
+
+.collection {
+    margin-bottom: 80px;
+}
+
+.collection-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000;
+    margin: 0 0 30px;
+}
+
+.item {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item-info {
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+    color: #fff;
+}
+
+.item-info strong {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    background-color: rgba(59, 185, 184, 0.8);
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.item-info span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.action {
+    margin-bottom: 80px;
+}
+
+.action-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000;
+    margin: 0 0 30px;
+}
+
+.products-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products-item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    padding: 10px 20px;
+    width: 270px;
+}
+
+.discount {
+    display: inline-block;
+    padding: 4px 22px;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    background: #EA1649;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+}
+
+.products-item-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.products-item p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.cost {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    color: #2B7BC6;
+    border: 2px solid #2B7BC6;
+    background-color: transparent;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+    margin-top: auto;
+    align-self: flex-end;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/*чисто для себя сделал кнопку интерактивной */
+.btn:hover {
+    background-color: #2B7BC6;
+    color: white;
+    transition: 0.2s;
+}
+
+.footer {
+    background-color: white;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 40px 0;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.ggpromarket {
+    font-size: 14px;
+    line-height: 20px;
+    color: #99A3A9;
+}
+
+.footer p {
+    font-size: 21px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #000;
+}
+
+.zakaz {
+    font-size: 14px;
+    color: #1061AB;
+}
